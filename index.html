@@ -1,39 +1,135 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rodrigo Carvalho dos Santos</title>
-  <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodrigo C Santos</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Press+Start+2P&family=Source+Code+Pro&display=swap"
+    rel="stylesheet">
+    <script
+    src="https://kit.fontawesome.com/6d6952c5be.js"
+    crossorigin="anonymous"
+ ></script>
 </head>
-
 <body>
-  <header>
-    <nav class="menu">
-      <ul>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Portfólio</a></li>
-        <li><a href="#">Contato</a></li>
-      </ul>
-    </nav>
-    <div>
-    <h1 class="site-title"> Rodrigo Carvalho</h1>
-    <h2 class="site-subtitle">jr. game developer</h2>
-  </div>
-  </header>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="titulo">
+            <h1 class="site-title">Rodrigo C Santos</h1>
+            <h2 class="site-subtitle">Developer of: Games, Desktop, Mobile and Internet Applications</h2>
+        </div>
+    </header>
 
-  <section>
-    <h2>Portfólio</h2>
-    <figure>
-      <img class="img-portfolio" src="./img/gamedeveloper.jpg" alt="gamedeveloper">
-      <figcaption>Game Development</figcaption>
-    </figure>
-    <figure>
-      <img class="img-portfolio" src="./img/webdeveloper.jpg" alt="webdeveloper">
-      <figcaption>Web Development</figcaption>
-    </figure>
-  </section>
+    <section class="sobre" id="sobre">
+        <h2>Sobre</h2>
+        <figure class="avatar">
+            <img src="img/rodrigo-avatar.jpg" alt="Rodrigo">
+        </figure>
+        <p>
+            Rodrigo has a degree in Digital Games from Centro Universitario Barão de Mauá in Ribeirão Preto - SP - Brazil
+Has little experience with programming at the time of publishing this site through github pages.
+Has experience in Support (Help Desk), Technical Support (Hardware), Support to the company system for retail customers, restaurants and the like, installing system, printer, sat, database (SQL SERVER and MYSQL), routines of system tests analyzing usability and fluency of use of the system for the end user, preventing bugs and problems that the user may have during use, taking into account all types of users, from the layman to an advanced user (with computer skills in general).
+        </p>
+    </section>
+<section class="portfolio" id="portfolio">
+    <h2>Projetos</h2>
+    <div class="grid">
+      <div class="flip-card">
+        <div class="card">
+          <figure class="card-front">
+              <img class="img-portfolio" src="./img/web-developer.jpg" alt="web-developer">
+              <figcaption>Web Developer</figcaption>
+          </figure>
+          <div class="card-back">
+            <h3>Web Developer</h3>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="card">
+          <figure class="card-front">
+              <img class="img-portfolio" src="./img/web-design.jpg" alt="web-design">
+              <figcaption>Web Design</figcaption>
+          </figure>
+          <div class="card-back">
+            <h3>Web Design</h3>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="card">
+          <figure class="card-front">
+              <img class="img-portfolio" src="./img/desktop-apps.jpg" alt="desktop-developer">
+              <figcaption>Desktop</figcaption>
+          </figure>
+          <div class="card-back">
+            <h3>Desktop</h3>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="card">
+          <figure class="card-front">
+            <img class="img-portfolio" src="./img/mobile-apps.jpg" alt="mobile-developer">
+            <figcaption>Mobile</figcaption>
+        </figure>
+          <div class="card-back">
+            <h3>Mobile</h3>
+          </div>
+        </div>
+      </div>
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+                <img class="img-portfolio" src="./img/game-developer.jpg" alt="game-developer">
+                <figcaption>Games</figcaption>
+            </figure>
+            <div class="card-back">
+              <h3>Games</h3>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+                <img class="img-portfolio" src="./img/portfolio.jpg" alt="portfolio">
+                <figcaption>Portfolio</figcaption>
+            </figure>
+            <div class="card-back">
+              <h3>Artstation</h3>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+<section class="contato" id="contato">
+    <h2>Contato</h2>
+
+    <div class="grid icons">
+        <a target="_blank" href="https://github.com/csrodrigo/">
+            <i class="fab fa-github"></i>
+        </a>
+        <a target="_blank" href="https://twitter.com/Rotriko01">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a target="_blank" href="https://linkedin.com/in/rodrigo-cs">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a target="_blank" href="https://instagram.com/rotriko">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a target="_blank" href="https://www.artstation.com/csrodrigo">
+          <i class="fab fa-artstation"></i>
+      </a>
+        
+    </div>
+</section>    
 </body>
-
 </html>
